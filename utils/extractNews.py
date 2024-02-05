@@ -4,7 +4,8 @@ from utils import logger
 
 scrappedDataDict = {
     "Heading" : "",
-    "overview" : ""
+    "overview" : "",
+    "link" : ""
 }
 
 def foxnews(Link:str)->dict :
@@ -20,6 +21,7 @@ def foxnews(Link:str)->dict :
         response = requests.get(Link)
         soup = bs4.BeautifulSoup(response.text, "html.parser")
 
+        scrappedDataDict['Link'] = Link
         scrappedDataDict['Heading'] = (soup.find('h1', attrs={'class':'headline speakable'}).text)
         logger.logMessage("heading of foxnews has been scrapped ")
         text = soup.find_all('div', attrs={'class':'article-content-wrap sticky-columns'})
@@ -34,6 +36,7 @@ def who(Link:str)->dict:
     response = requests.get(Link)
     soup = bs4.BeautifulSoup(response.text, "html.parser")
 
+    scrappedDataDict['Link'] = Link
     scrappedDataDict['Heading'] = soup.find('h1').text
     logger.logMessage("heading of who has been scrapped ")
 
