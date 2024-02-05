@@ -1,0 +1,25 @@
+2024-02-05 11:46:44,478 - input from Json file is loaded
+2024-02-05 11:46:44,478 - source name is identified
+2024-02-05 11:46:44,478 - source name has been fetched
+2024-02-05 11:46:44,478 - heading and body is scrapped
+2024-02-05 11:47:00,956 - heading of foxnews has been scrapped 
+2024-02-05 11:47:00,956 - text from foxnews has been scrapped
+2024-02-05 11:47:00,956 - added into dictionary
+2024-02-05 11:47:00,956 - source name is identified
+2024-02-05 11:47:00,956 - source name has been fetched
+2024-02-05 11:47:00,956 - heading and body is scrapped
+2024-02-05 11:47:02,132 - heading of foxnews has been scrapped 
+2024-02-05 11:47:02,132 - text from foxnews has been scrapped
+2024-02-05 11:47:02,132 - added into dictionary
+2024-02-05 11:47:02,132 - source name is identified
+2024-02-05 11:47:02,132 - source name has been fetched
+2024-02-05 11:47:02,132 - heading and body is scrapped
+2024-02-05 11:47:02,697 - heading of who has been scrapped 
+2024-02-05 11:47:02,697 - text from who has been scrapped
+2024-02-05 11:47:02,713 - added into dictionary
+2024-02-05 11:47:02,714 - source name is identified
+2024-02-05 11:47:02,714 - source name has been fetched
+2024-02-05 11:47:02,714 - heading and body is scrapped
+2024-02-05 11:47:03,372 - heading of who has been scrapped 
+2024-02-05 11:47:03,372 - text from who has been scrapped
+2024-02-05 11:47:03,372 - added into dictionary
