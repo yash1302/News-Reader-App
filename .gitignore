@@ -1,3 +1,4 @@
 News-Reader-App/
-log.log
-output.json
+logfile.log
+output.txt
+__pycache__/
